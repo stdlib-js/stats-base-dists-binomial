@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.binomial;
+})();
 })();
 </script>
 ```
@@ -142,9 +144,11 @@ var mu = dist.mean;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( binomial ) );
 
+})();
 })();
 </script>
 </body>
@@ -236,33 +240,33 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/binomial/ctor]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/tree/umd
+[@stdlib/stats/base/dists/binomial/ctor]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/entropy]: https://github.com/stdlib-js/stats-base-dists-binomial-entropy/tree/umd
+[@stdlib/stats/base/dists/binomial/entropy]: https://github.com/stdlib-js/stats-base-dists-binomial-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/kurtosis]: https://github.com/stdlib-js/stats-base-dists-binomial-kurtosis/tree/umd
+[@stdlib/stats/base/dists/binomial/kurtosis]: https://github.com/stdlib-js/stats-base-dists-binomial-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/mean]: https://github.com/stdlib-js/stats-base-dists-binomial-mean/tree/umd
+[@stdlib/stats/base/dists/binomial/mean]: https://github.com/stdlib-js/stats-base-dists-binomial-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/median]: https://github.com/stdlib-js/stats-base-dists-binomial-median/tree/umd
+[@stdlib/stats/base/dists/binomial/median]: https://github.com/stdlib-js/stats-base-dists-binomial-median/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/mode]: https://github.com/stdlib-js/stats-base-dists-binomial-mode/tree/umd
+[@stdlib/stats/base/dists/binomial/mode]: https://github.com/stdlib-js/stats-base-dists-binomial-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/skewness]: https://github.com/stdlib-js/stats-base-dists-binomial-skewness/tree/umd
+[@stdlib/stats/base/dists/binomial/skewness]: https://github.com/stdlib-js/stats-base-dists-binomial-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/stdev]: https://github.com/stdlib-js/stats-base-dists-binomial-stdev/tree/umd
+[@stdlib/stats/base/dists/binomial/stdev]: https://github.com/stdlib-js/stats-base-dists-binomial-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/variance]: https://github.com/stdlib-js/stats-base-dists-binomial-variance/tree/umd
+[@stdlib/stats/base/dists/binomial/variance]: https://github.com/stdlib-js/stats-base-dists-binomial-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/cdf]: https://github.com/stdlib-js/stats-base-dists-binomial-cdf/tree/umd
+[@stdlib/stats/base/dists/binomial/cdf]: https://github.com/stdlib-js/stats-base-dists-binomial-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/logpmf]: https://github.com/stdlib-js/stats-base-dists-binomial-logpmf/tree/umd
+[@stdlib/stats/base/dists/binomial/logpmf]: https://github.com/stdlib-js/stats-base-dists-binomial-logpmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/mgf]: https://github.com/stdlib-js/stats-base-dists-binomial-mgf/tree/umd
+[@stdlib/stats/base/dists/binomial/mgf]: https://github.com/stdlib-js/stats-base-dists-binomial-mgf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/pmf]: https://github.com/stdlib-js/stats-base-dists-binomial-pmf/tree/umd
+[@stdlib/stats/base/dists/binomial/pmf]: https://github.com/stdlib-js/stats-base-dists-binomial-pmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/binomial/quantile]: https://github.com/stdlib-js/stats-base-dists-binomial-quantile/tree/umd
+[@stdlib/stats/base/dists/binomial/quantile]: https://github.com/stdlib-js/stats-base-dists-binomial-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
