@@ -24,20 +24,30 @@ limitations under the License.
 
 > Binomial distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-binomial
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { Binomial, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
+var binomial = require( '@stdlib/stats-base-dists-binomial' );
 ```
 
 #### binomial
@@ -97,7 +107,7 @@ The namespace contains a constructor function for creating a [binomial][binomial
 <!-- </toc> -->
 
 ```javascript
-var Binomial = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial' ).Binomial;
+var Binomial = require( '@stdlib/stats-base-dists-binomial' ).Binomial;
 var dist = new Binomial( 10, 0.4 );
 
 var mu = dist.mean;
@@ -116,20 +126,11 @@ var mu = dist.mean;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var binomial = require( '@stdlib/stats-base-dists-binomial' );
 
 console.log( objectKeys( binomial ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -153,7 +154,7 @@ console.log( objectKeys( binomial ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -170,7 +171,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -217,33 +218,33 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/binomial/ctor]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/tree/esm
+[@stdlib/stats/base/dists/binomial/ctor]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor
 
-[@stdlib/stats/base/dists/binomial/entropy]: https://github.com/stdlib-js/stats-base-dists-binomial-entropy/tree/esm
+[@stdlib/stats/base/dists/binomial/entropy]: https://github.com/stdlib-js/stats-base-dists-binomial-entropy
 
-[@stdlib/stats/base/dists/binomial/kurtosis]: https://github.com/stdlib-js/stats-base-dists-binomial-kurtosis/tree/esm
+[@stdlib/stats/base/dists/binomial/kurtosis]: https://github.com/stdlib-js/stats-base-dists-binomial-kurtosis
 
-[@stdlib/stats/base/dists/binomial/mean]: https://github.com/stdlib-js/stats-base-dists-binomial-mean/tree/esm
+[@stdlib/stats/base/dists/binomial/mean]: https://github.com/stdlib-js/stats-base-dists-binomial-mean
 
-[@stdlib/stats/base/dists/binomial/median]: https://github.com/stdlib-js/stats-base-dists-binomial-median/tree/esm
+[@stdlib/stats/base/dists/binomial/median]: https://github.com/stdlib-js/stats-base-dists-binomial-median
 
-[@stdlib/stats/base/dists/binomial/mode]: https://github.com/stdlib-js/stats-base-dists-binomial-mode/tree/esm
+[@stdlib/stats/base/dists/binomial/mode]: https://github.com/stdlib-js/stats-base-dists-binomial-mode
 
-[@stdlib/stats/base/dists/binomial/skewness]: https://github.com/stdlib-js/stats-base-dists-binomial-skewness/tree/esm
+[@stdlib/stats/base/dists/binomial/skewness]: https://github.com/stdlib-js/stats-base-dists-binomial-skewness
 
-[@stdlib/stats/base/dists/binomial/stdev]: https://github.com/stdlib-js/stats-base-dists-binomial-stdev/tree/esm
+[@stdlib/stats/base/dists/binomial/stdev]: https://github.com/stdlib-js/stats-base-dists-binomial-stdev
 
-[@stdlib/stats/base/dists/binomial/variance]: https://github.com/stdlib-js/stats-base-dists-binomial-variance/tree/esm
+[@stdlib/stats/base/dists/binomial/variance]: https://github.com/stdlib-js/stats-base-dists-binomial-variance
 
-[@stdlib/stats/base/dists/binomial/cdf]: https://github.com/stdlib-js/stats-base-dists-binomial-cdf/tree/esm
+[@stdlib/stats/base/dists/binomial/cdf]: https://github.com/stdlib-js/stats-base-dists-binomial-cdf
 
-[@stdlib/stats/base/dists/binomial/logpmf]: https://github.com/stdlib-js/stats-base-dists-binomial-logpmf/tree/esm
+[@stdlib/stats/base/dists/binomial/logpmf]: https://github.com/stdlib-js/stats-base-dists-binomial-logpmf
 
-[@stdlib/stats/base/dists/binomial/mgf]: https://github.com/stdlib-js/stats-base-dists-binomial-mgf/tree/esm
+[@stdlib/stats/base/dists/binomial/mgf]: https://github.com/stdlib-js/stats-base-dists-binomial-mgf
 
-[@stdlib/stats/base/dists/binomial/pmf]: https://github.com/stdlib-js/stats-base-dists-binomial-pmf/tree/esm
+[@stdlib/stats/base/dists/binomial/pmf]: https://github.com/stdlib-js/stats-base-dists-binomial-pmf
 
-[@stdlib/stats/base/dists/binomial/quantile]: https://github.com/stdlib-js/stats-base-dists-binomial-quantile/tree/esm
+[@stdlib/stats/base/dists/binomial/quantile]: https://github.com/stdlib-js/stats-base-dists-binomial-quantile
 
 <!-- </toc-links> -->
 
