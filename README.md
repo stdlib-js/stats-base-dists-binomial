@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
+import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Binomial, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
+import { Binomial, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@v0.2.0-esm/index.mjs';
 ```
 
 #### binomial
@@ -134,7 +134,7 @@ var mu = dist.mean;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
+import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@v0.2.0-esm/index.mjs';
 
 console.log( objectKeys( binomial ) );
 
