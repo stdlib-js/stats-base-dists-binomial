@@ -4,124 +4,21 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-binomial-kurtosis-unreleased">
-
-#### [@stdlib/stats/base/dists/binomial/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/kurtosis)
-
-<details>
+## Unreleased (2025-11-21)
 
 <section class="features">
 
-##### Features
+### Features
 
--   [`d465523`](https://github.com/stdlib-js/stdlib/commit/d465523f1465201c42ca8491ecf14c6bde261031) - add C implementation for `stats/base/dists/binomial/kurtosis` [(#4411)](https://github.com/stdlib-js/stdlib/pull/4411)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3467](https://github.com/stdlib-js/stdlib/issues/3467)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-mean-unreleased">
-
-#### [@stdlib/stats/base/dists/binomial/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`95dd2ff`](https://github.com/stdlib-js/stdlib/commit/95dd2ffb02ddeb98f100d73cdb017264905dd3a4) - add C implementation for `stats/base/dists/binomial/mean` [(#3681)](https://github.com/stdlib-js/stdlib/pull/3681)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3469](https://github.com/stdlib-js/stdlib/issues/3469), [#5125](https://github.com/stdlib-js/stdlib/issues/5125)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-median-unreleased">
-
-#### [@stdlib/stats/base/dists/binomial/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`797e534`](https://github.com/stdlib-js/stdlib/commit/797e53461faa68130f467a325f4996892e62a05a) - add C implementation for `stats/base/dists/binomial/pmf` [(#4359)](https://github.com/stdlib-js/stdlib/pull/4359)
+-   [`394df9c`](https://github.com/stdlib-js/stdlib/commit/394df9cbfe1e319625331814813bfffb5113d8d6) - add C implementation for `stats/base/dists/binomial/entropy` [(#4016)](https://github.com/stdlib-js/stdlib/pull/4016)
+-   [`b74cf16`](https://github.com/stdlib-js/stdlib/commit/b74cf1670fd9f0bde46fd02d2e432c94bbebf6c6) - add C implementation for `stats/base/dists/binomial/mgf` [(#4414)](https://github.com/stdlib-js/stdlib/pull/4414)
 -   [`9b455b1`](https://github.com/stdlib-js/stdlib/commit/9b455b15cb301af9ecc7eff8960e223a3a7d1b24) - add C implementation for `stats/base/dists/binomial/median` [(#3950)](https://github.com/stdlib-js/stdlib/pull/3950)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3470](https://github.com/stdlib-js/stdlib/issues/3470), [#5303](https://github.com/stdlib-js/stdlib/issues/5303)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-mode-unreleased">
-
-#### [@stdlib/stats/base/dists/binomial/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`e05da28`](https://github.com/stdlib-js/stdlib/commit/e05da283a2493c635c06ab0f19e4aefbcc9e2540) - add C implementation for `stats/base/dists/binomial/stdev` [(#4408)](https://github.com/stdlib-js/stdlib/pull/4408)
+-   [`d465523`](https://github.com/stdlib-js/stdlib/commit/d465523f1465201c42ca8491ecf14c6bde261031) - add C implementation for `stats/base/dists/binomial/kurtosis` [(#4411)](https://github.com/stdlib-js/stdlib/pull/4411)
+-   [`9805877`](https://github.com/stdlib-js/stdlib/commit/9805877a4645bd964574b02d6bf4ce8d36f97f7b) - add C implementation for `stats/base/dists/binomial/skewness` [(#4410)](https://github.com/stdlib-js/stdlib/pull/4410)
+-   [`95dd2ff`](https://github.com/stdlib-js/stdlib/commit/95dd2ffb02ddeb98f100d73cdb017264905dd3a4) - add C implementation for `stats/base/dists/binomial/mean` [(#3681)](https://github.com/stdlib-js/stdlib/pull/3681)
+-   [`3283517`](https://github.com/stdlib-js/stdlib/commit/32835176f21ecd14cbf81a51699d49533ff63fe6) - add C implementation for `stats/base/dists/binomial/variance` [(#3929)](https://github.com/stdlib-js/stdlib/pull/3929)
 -   [`8447e7a`](https://github.com/stdlib-js/stdlib/commit/8447e7a2a28a2f5cdca879dea9a6ebe56783b82f) - add C implementation for `stats/base/dists/binomial/mode` [(#3947)](https://github.com/stdlib-js/stdlib/pull/3947)
 
 </section>
@@ -130,158 +27,15 @@ A total of 2 issues were closed in this release:
 
 <section class="issues">
 
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3472](https://github.com/stdlib-js/stdlib/issues/3472)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-skewness-unreleased">
-
-#### [@stdlib/stats/base/dists/binomial/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9805877`](https://github.com/stdlib-js/stdlib/commit/9805877a4645bd964574b02d6bf4ce8d36f97f7b) - add C implementation for `stats/base/dists/binomial/skewness` [(#4410)](https://github.com/stdlib-js/stdlib/pull/4410)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3475](https://github.com/stdlib-js/stdlib/issues/3475), [#5149](https://github.com/stdlib-js/stdlib/issues/5149)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-stdev-unreleased">
-
-#### [@stdlib/stats/base/dists/binomial/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e05da28`](https://github.com/stdlib-js/stdlib/commit/e05da283a2493c635c06ab0f19e4aefbcc9e2540) - add C implementation for `stats/base/dists/binomial/stdev` [(#4408)](https://github.com/stdlib-js/stdlib/pull/4408)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3476](https://github.com/stdlib-js/stdlib/issues/3476), [#5305](https://github.com/stdlib-js/stdlib/issues/5305)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-variance-unreleased">
-
-#### [@stdlib/stats/base/dists/binomial/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3283517`](https://github.com/stdlib-js/stdlib/commit/32835176f21ecd14cbf81a51699d49533ff63fe6) - add C implementation for `stats/base/dists/binomial/variance` [(#3929)](https://github.com/stdlib-js/stdlib/pull/3929)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3477](https://github.com/stdlib-js/stdlib/issues/3477)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="issues">
-
 ### Closed Issues
 
-A total of 11 issues were closed in this release:
+A total of 15 issues were closed in this release:
 
-[#3467](https://github.com/stdlib-js/stdlib/issues/3467), [#3469](https://github.com/stdlib-js/stdlib/issues/3469), [#3470](https://github.com/stdlib-js/stdlib/issues/3470), [#3472](https://github.com/stdlib-js/stdlib/issues/3472), [#3475](https://github.com/stdlib-js/stdlib/issues/3475), [#3476](https://github.com/stdlib-js/stdlib/issues/3476), [#3477](https://github.com/stdlib-js/stdlib/issues/3477), [#5125](https://github.com/stdlib-js/stdlib/issues/5125), [#5149](https://github.com/stdlib-js/stdlib/issues/5149), [#5303](https://github.com/stdlib-js/stdlib/issues/5303), [#5305](https://github.com/stdlib-js/stdlib/issues/5305)
+[#3466](https://github.com/stdlib-js/stdlib/issues/3466), [#3467](https://github.com/stdlib-js/stdlib/issues/3467), [#3469](https://github.com/stdlib-js/stdlib/issues/3469), [#3470](https://github.com/stdlib-js/stdlib/issues/3470), [#3471](https://github.com/stdlib-js/stdlib/issues/3471), [#3472](https://github.com/stdlib-js/stdlib/issues/3472), [#3473](https://github.com/stdlib-js/stdlib/issues/3473), [#3475](https://github.com/stdlib-js/stdlib/issues/3475), [#3476](https://github.com/stdlib-js/stdlib/issues/3476), [#3477](https://github.com/stdlib-js/stdlib/issues/3477), [#5125](https://github.com/stdlib-js/stdlib/issues/5125), [#5149](https://github.com/stdlib-js/stdlib/issues/5149), [#5303](https://github.com/stdlib-js/stdlib/issues/5303), [#5305](https://github.com/stdlib-js/stdlib/issues/5305), [#7758](https://github.com/stdlib-js/stdlib/issues/7758)
 
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 8 people contributed to this release. Thank you to the following contributors:
-
--   Aayush Khanna
--   Athan Reines
--   Harsh
--   Karan Anand
--   Philipp Burckhardt
--   Prashant Kumar Yadav
--   Rishav Tarway
--   Saurabh Singh
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -289,6 +43,24 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2cabe18`](https://github.com/stdlib-js/stdlib/commit/2cabe1887e6a502a306b70580fb5d038da0917f3) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`14fbe2a`](https://github.com/stdlib-js/stdlib/commit/14fbe2a5ced542c4183b6cae8a5d369462a6023a) - **docs:** clean-up TypeScript declarations example code _(by Philipp Burckhardt)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`b6ca4b7`](https://github.com/stdlib-js/stdlib/commit/b6ca4b794ee6a139616ef2115e7ba38bdede2f85) - **docs:** fix capitalization [(#7763)](https://github.com/stdlib-js/stdlib/pull/7763) _(by Abhishek G, Athan Reines)_
+-   [`797e534`](https://github.com/stdlib-js/stdlib/commit/797e53461faa68130f467a325f4996892e62a05a) - **feat:** add C implementation for `stats/base/dists/binomial/pmf` [(#4359)](https://github.com/stdlib-js/stdlib/pull/4359) _(by Abhijit Raut, Philipp Burckhardt, stdlib-bot)_
+-   [`394df9c`](https://github.com/stdlib-js/stdlib/commit/394df9cbfe1e319625331814813bfffb5113d8d6) - **feat:** add C implementation for `stats/base/dists/binomial/entropy` [(#4016)](https://github.com/stdlib-js/stdlib/pull/4016) _(by Divyansh Seth, Philipp Burckhardt, stdlib-bot)_
+-   [`b74cf16`](https://github.com/stdlib-js/stdlib/commit/b74cf1670fd9f0bde46fd02d2e432c94bbebf6c6) - **feat:** add C implementation for `stats/base/dists/binomial/mgf` [(#4414)](https://github.com/stdlib-js/stdlib/pull/4414) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh Yadav, Athan Reines)_
+-   [`a5e0667`](https://github.com/stdlib-js/stdlib/commit/a5e0667c308881e101549d77c6d8573e3b632c67) - **docs:** replace manual `for` loop in examples [(#6849)](https://github.com/stdlib-js/stdlib/pull/6849) _(by Harsh Yadav, Athan Reines)_
+-   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh Yadav)_
+-   [`c1acd4b`](https://github.com/stdlib-js/stdlib/commit/c1acd4bf3ed08b40d6d4e93ee245f03c9eef8472) - **bench:** update random value generation [(#6858)](https://github.com/stdlib-js/stdlib/pull/6858) _(by Harsh Yadav, Athan Reines)_
+-   [`e658ffd`](https://github.com/stdlib-js/stdlib/commit/e658ffd3c46b5cb1ba33c0be61e55bf6995237ca) - **bench:** update random value generation [(#6856)](https://github.com/stdlib-js/stdlib/pull/6856) _(by Harsh Yadav)_
+-   [`22c4c3e`](https://github.com/stdlib-js/stdlib/commit/22c4c3e5ffc0356aabf7b740b8e201e9ee427901) - **bench:** update random value generation [(#6857)](https://github.com/stdlib-js/stdlib/pull/6857) _(by Harsh Yadav)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`6670680`](https://github.com/stdlib-js/stdlib/commit/6670680a8981818c8e3774da4bf2a8c7dedb4715) - **chore:** address commit comments and use discrete uniform PRNG [(#5313)](https://github.com/stdlib-js/stdlib/pull/5313) _(by Rishav Tarway)_
 -   [`7c6d2b7`](https://github.com/stdlib-js/stdlib/commit/7c6d2b7038784f61acad0b3f0f9680df91a34411) - **docs:** update examples for `stdlib/base/dists/binomial/stdev` [(#5311)](https://github.com/stdlib-js/stdlib/pull/5311) _(by Rishav Tarway)_
@@ -299,7 +71,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   [`e05da28`](https://github.com/stdlib-js/stdlib/commit/e05da283a2493c635c06ab0f19e4aefbcc9e2540) - **feat:** add C implementation for `stats/base/dists/binomial/stdev` [(#4408)](https://github.com/stdlib-js/stdlib/pull/4408) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`d465523`](https://github.com/stdlib-js/stdlib/commit/d465523f1465201c42ca8491ecf14c6bde261031) - **feat:** add C implementation for `stats/base/dists/binomial/kurtosis` [(#4411)](https://github.com/stdlib-js/stdlib/pull/4411) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`c45b0ba`](https://github.com/stdlib-js/stdlib/commit/c45b0ba1e520ffe95e231d4e634cbcc26dfd5242) - **chore:** address commit comments [(#5219)](https://github.com/stdlib-js/stdlib/pull/5219) _(by Saurabh Singh)_
--   [`10b7eff`](https://github.com/stdlib-js/stdlib/commit/10b7eff89e06862772f7c5ba751171f8def32848) - **bench:** refactor number generation [(#5198)](https://github.com/stdlib-js/stdlib/pull/5198) _(by Harsh)_
+-   [`10b7eff`](https://github.com/stdlib-js/stdlib/commit/10b7eff89e06862772f7c5ba751171f8def32848) - **bench:** refactor number generation [(#5198)](https://github.com/stdlib-js/stdlib/pull/5198) _(by Harsh Yadav)_
 -   [`d53a818`](https://github.com/stdlib-js/stdlib/commit/d53a8184c029c3df7c45a7a1a2da9ff90b4f883e) - **docs:** fix errors in the structure of READMEs in `stats/base/*` [(#5138)](https://github.com/stdlib-js/stdlib/pull/5138) _(by Aayush Khanna)_
 -   [`9805877`](https://github.com/stdlib-js/stdlib/commit/9805877a4645bd964574b02d6bf4ce8d36f97f7b) - **feat:** add C implementation for `stats/base/dists/binomial/skewness` [(#4410)](https://github.com/stdlib-js/stdlib/pull/4410) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`95dd2ff`](https://github.com/stdlib-js/stdlib/commit/95dd2ffb02ddeb98f100d73cdb017264905dd3a4) - **feat:** add C implementation for `stats/base/dists/binomial/mean` [(#3681)](https://github.com/stdlib-js/stdlib/pull/3681) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
@@ -314,6 +86,28 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 11 people contributed to this release. Thank you to the following contributors:
+
+-   Aayush Khanna
+-   Abhijit Raut
+-   Abhishek G
+-   Athan Reines
+-   Divyansh Seth
+-   Harsh Yadav
+-   Karan Anand
+-   Philipp Burckhardt
+-   Prashant Kumar Yadav
+-   Rishav Tarway
+-   Saurabh Singh
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -321,27 +115,6 @@ A total of 8 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Nishant Shinde
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -359,6 +132,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Nishant Shinde
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -378,26 +164,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -413,6 +179,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -421,523 +199,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-binomial-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-cdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/cdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-ctor-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/ctor)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-entropy-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-kurtosis-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-logpmf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/logpmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/logpmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-mean-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-median-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-mgf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-mode-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-pmf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/pmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/pmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-quantile-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-skewness-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-stdev-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-binomial-variance-v0.1.0">
-
-#### [@stdlib/stats/base/dists/binomial/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/binomial/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -950,18 +220,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -979,6 +237,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
