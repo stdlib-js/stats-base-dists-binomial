@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
+import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Binomial, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
+import { Binomial, cdf, entropy, kurtosis, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@v0.3.1-esm/index.mjs';
 ```
 
 #### binomial
@@ -133,7 +133,7 @@ var mu = dist.mean;
 <body>
 <script type="module">
 
-import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@esm/index.mjs';
+import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial@v0.3.1-esm/index.mjs';
 
 /*
 * Let's take an example of rolling a fair dice 10 times and counting the number of times a 6 is rolled.
