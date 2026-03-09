@@ -2,6 +2,44 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-09)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`675c404`](https://github.com/stdlib-js/stdlib/commit/675c404341e210a6ff4d37477bbc3f79e927fd8d) - **bench:** refactor to use string interpolation in `stats/base/dists/binomial` [(#10176)](https://github.com/stdlib-js/stdlib/pull/10176) _(by Vishal Gaikwad)_
+-   [`4756e95`](https://github.com/stdlib-js/stdlib/commit/4756e952607ba75dc0013d2b8e226e7d3db000d9) - **docs:** use \"probability mass function\" instead of \"probability density function\" for PMF methods _(by Philipp Burckhardt)_
+-   [`0ca797b`](https://github.com/stdlib-js/stdlib/commit/0ca797b5558b96111256a7446eafe101761b240b) - **bench:** use float literals for `uniform` range arguments _(by Philipp Burckhardt)_
+-   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Vishal Gaikwad
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
