@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-07)
+## Unreleased (2026-06-06)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`38c7b12`](https://github.com/stdlib-js/stdlib/commit/38c7b1259c24a6918201d210b99b1639a3d27f95) - **docs:** update `stats/base/dists/binomial` TypeScript declarations [(#12596)](https://github.com/stdlib-js/stdlib/pull/12596) _(by stdlib-bot)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`4fe7fa2`](https://github.com/stdlib-js/stdlib/commit/4fe7fa284a539f7a30709e1a7801e15f54ef153d) - **refactor:** reuse variance in `stats/base/dists/binomial/stdev` [(#11369)](https://github.com/stdlib-js/stdlib/pull/11369) _(by Om-A-osc, Athan Reines)_
 -   [`8448f5a`](https://github.com/stdlib-js/stdlib/commit/8448f5a44bad7e305d50ac9e92ba195bac863389) - **chore:** ensure consistent use of semicolons [(#11170)](https://github.com/stdlib-js/stdlib/pull/11170) _(by Philipp Burckhardt, Athan Reines)_
