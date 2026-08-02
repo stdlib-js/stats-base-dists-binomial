@@ -4,7 +4,31 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-08-02)
+
+<section class="features">
+
+### Features
+
+-   [`fd3be1e`](https://github.com/stdlib-js/stdlib/commit/fd3be1e9ce03cd0f58fb6ee9d775a9c801ace05f) - add C implementation for `stats/base/dists/binomial/quantile` [(#4415)](https://github.com/stdlib-js/stdlib/pull/4415)
+-   [`34af926`](https://github.com/stdlib-js/stdlib/commit/34af92690ca2581ae6fc94b17b5023c61810ceb6) - add C implementation for `stats/base/dists/binomial/logpmf` [(#4417)](https://github.com/stdlib-js/stdlib/pull/4417)
+-   [`27626ae`](https://github.com/stdlib-js/stdlib/commit/27626ae743400778da734c069ee493a10d4fca75) - add C implementation for `stats/base/dists/binomial/cdf` [(#4413)](https://github.com/stdlib-js/stdlib/pull/4413)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3465](https://github.com/stdlib-js/stdlib/issues/3465), [#3468](https://github.com/stdlib-js/stdlib/issues/3468), [#3474](https://github.com/stdlib-js/stdlib/issues/3474)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +36,14 @@
 
 <details>
 
+-   [`01a20c0`](https://github.com/stdlib-js/stdlib/commit/01a20c0a25103830414ec613971c0088fc65a2b6) - **style:** remove extraneous whitespace [(#13654)](https://github.com/stdlib-js/stdlib/pull/13654) _(by Philipp Burckhardt)_
+-   [`620be0b`](https://github.com/stdlib-js/stdlib/commit/620be0baebda152a786918d03a5d00994aed26b2) - **chore:** clean-up [(#13643)](https://github.com/stdlib-js/stdlib/pull/13643) _(by Philipp Burckhardt, Athan Reines)_
+-   [`fd3be1e`](https://github.com/stdlib-js/stdlib/commit/fd3be1e9ce03cd0f58fb6ee9d775a9c801ace05f) - **feat:** add C implementation for `stats/base/dists/binomial/quantile` [(#4415)](https://github.com/stdlib-js/stdlib/pull/4415) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`34af926`](https://github.com/stdlib-js/stdlib/commit/34af92690ca2581ae6fc94b17b5023c61810ceb6) - **feat:** add C implementation for `stats/base/dists/binomial/logpmf` [(#4417)](https://github.com/stdlib-js/stdlib/pull/4417) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`0204d5b`](https://github.com/stdlib-js/stdlib/commit/0204d5b64b628abb922b32e83dfa5d4919b2a4b1) - **chore:** update keywords [(#11902)](https://github.com/stdlib-js/stdlib/pull/11902) _(by Philipp Burckhardt)_
+-   [`27626ae`](https://github.com/stdlib-js/stdlib/commit/27626ae743400778da734c069ee493a10d4fca75) - **feat:** add C implementation for `stats/base/dists/binomial/cdf` [(#4413)](https://github.com/stdlib-js/stdlib/pull/4413) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
+-   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`38c7b12`](https://github.com/stdlib-js/stdlib/commit/38c7b1259c24a6918201d210b99b1639a3d27f95) - **docs:** update `stats/base/dists/binomial` TypeScript declarations [(#12596)](https://github.com/stdlib-js/stdlib/pull/12596) _(by stdlib-bot)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
@@ -33,11 +65,12 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 -   Vishal Gaikwad
 -   anee3
 
