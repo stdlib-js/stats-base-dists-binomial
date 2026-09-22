@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-22)
 
 <section class="features">
 
@@ -36,6 +36,11 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a464e88`](https://github.com/stdlib-js/stdlib/commit/a464e88c517f49d2a4604e2bfb6f8724a0b7fb9a) - **test:** migrate `stats/base/dists/binomial/kurtosis` to ULP-based assertions [(#15345)](https://github.com/stdlib-js/stdlib/pull/15345) _(by Philipp Burckhardt)_
+-   [`8fe5901`](https://github.com/stdlib-js/stdlib/commit/8fe590181a8c6aaf420c1ff44290d77ddb743f24) - **test:** migrate `stats/base/dists/binomial/mgf` to ULP-based assertions [(#14890)](https://github.com/stdlib-js/stdlib/pull/14890) _(by Aryan kumar)_
+-   [`ae8130c`](https://github.com/stdlib-js/stdlib/commit/ae8130cfa19b64d8c248bd97341c14f5979912a0) - **test:** migrate `stats/base/dists/binomial/logpmf` to ULP-based assertions [(#14916)](https://github.com/stdlib-js/stdlib/pull/14916) _(by Aryan kumar)_
+-   [`570a9ef`](https://github.com/stdlib-js/stdlib/commit/570a9ef4e872e07b37c0e95aafb0cf2c340f327e) - **test:** migrate `stats/base/dists/binomial/pmf` to ULP-based assertions [(#14914)](https://github.com/stdlib-js/stdlib/pull/14914) _(by Aryan kumar)_
+-   [`d82ab14`](https://github.com/stdlib-js/stdlib/commit/d82ab14b5ffae617360161af5308781231ff6691) - **test:** migrate `stats/base/dists/binomial/entropy` to ULP-based assertions [(#14588)](https://github.com/stdlib-js/stdlib/pull/14588) _(by Philipp Burckhardt)_
 -   [`01a20c0`](https://github.com/stdlib-js/stdlib/commit/01a20c0a25103830414ec613971c0088fc65a2b6) - **style:** remove extraneous whitespace [(#13654)](https://github.com/stdlib-js/stdlib/pull/13654) _(by Philipp Burckhardt)_
 -   [`620be0b`](https://github.com/stdlib-js/stdlib/commit/620be0baebda152a786918d03a5d00994aed26b2) - **chore:** clean-up [(#13643)](https://github.com/stdlib-js/stdlib/pull/13643) _(by Philipp Burckhardt, Athan Reines)_
 -   [`fd3be1e`](https://github.com/stdlib-js/stdlib/commit/fd3be1e9ce03cd0f58fb6ee9d775a9c801ace05f) - **feat:** add C implementation for `stats/base/dists/binomial/quantile` [(#4415)](https://github.com/stdlib-js/stdlib/pull/4415) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
@@ -65,8 +70,9 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
