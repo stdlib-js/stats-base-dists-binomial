@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-22)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
@@ -36,6 +36,11 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
+-   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
+-   [`f73d703`](https://github.com/stdlib-js/stdlib/commit/f73d7038513f704f8949728b46ff8ba5e92d18e8) - **test:** migrate `stats/base/dists/binomial/variance` to ULP-based assertions [(#15614)](https://github.com/stdlib-js/stdlib/pull/15614) _(by Athan Reines)_
+-   [`c3350e9`](https://github.com/stdlib-js/stdlib/commit/c3350e9687ff3594def277c280a813afb3ad24df) - **test:** migrate `stats/base/dists/binomial/skewness` to ULP-based assertions [(#15427)](https://github.com/stdlib-js/stdlib/pull/15427) _(by Athan Reines)_
 -   [`a464e88`](https://github.com/stdlib-js/stdlib/commit/a464e88c517f49d2a4604e2bfb6f8724a0b7fb9a) - **test:** migrate `stats/base/dists/binomial/kurtosis` to ULP-based assertions [(#15345)](https://github.com/stdlib-js/stdlib/pull/15345) _(by Philipp Burckhardt)_
 -   [`8fe5901`](https://github.com/stdlib-js/stdlib/commit/8fe590181a8c6aaf420c1ff44290d77ddb743f24) - **test:** migrate `stats/base/dists/binomial/mgf` to ULP-based assertions [(#14890)](https://github.com/stdlib-js/stdlib/pull/14890) _(by Aryan kumar)_
 -   [`ae8130c`](https://github.com/stdlib-js/stdlib/commit/ae8130cfa19b64d8c248bd97341c14f5979912a0) - **test:** migrate `stats/base/dists/binomial/logpmf` to ULP-based assertions [(#14916)](https://github.com/stdlib-js/stdlib/pull/14916) _(by Aryan kumar)_
